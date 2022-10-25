@@ -1,7 +1,7 @@
 ---
 title: Prediction of Stock Price Using LSTM
 tags: 'LSTM,ML,Stock Price Prediction'
-category: 2022-10
+category: /2022-10
 emoji: "☺"
 grammar_cjkRuby: true
 ---
@@ -19,7 +19,8 @@ RNN展开后由多个相同的单元连续连接。即随着不断的循环，�
 
 LSTM基本结构图：
 
-![LSTM](./images/LSTM3-chain.png)
+![LSTM](http://colah.github.io/posts/2015-08-Understanding-LSTMs/img/LSTM3-chain.png)
+
 
 LSTM细胞由输入门、遗忘门、输出门和单元状态组成：
 * 输入门：决定当前时刻网络的输入数据有多少需要保存到单元状态。
