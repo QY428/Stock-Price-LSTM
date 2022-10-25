@@ -2,8 +2,7 @@
 title: Prediction of Stock Price Using LSTM
 tags: 'LSTM,ML,Stock Price Prediction'
 category: /2022-10
-emoji: "☺"
-grammar_cjkRuby: true
+author: Jason Ji
 ---
 # Introduction
 ## Background
@@ -43,11 +42,12 @@ model.add(Dense(units=32))
 model.add(Dense(units=1))
 model.summary()
 ```
-![model structure](./images/1666704053984.png)
+![model structure](https://s2.loli.net/2022/10/25/tCEIPlVBaRpFLqX.png)
+
 
 # Result
 
-![APPLE INC.](./images/1666704287743.png)
+![APPLE INC.](https://s2.loli.net/2022/10/25/5DR9Fs6KWC1Xhtd.png)
 
 # References
 [^1]:[Chen, K., Zhou, Y., &amp; Dai, F. (2015). A LSTM-based method for stock returns prediction: A case study of china stock market. 2015 IEEE International Conference on Big Data (Big Data).](https://doi.org/10.1109/bigdata.2015.7364089)  
