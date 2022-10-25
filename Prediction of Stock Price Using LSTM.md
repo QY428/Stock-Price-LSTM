@@ -13,7 +13,7 @@ LSTM引入了内存单元(memory cells)，这是一个计算单元，它取代�
 
 原始的RNN基本结构图(图源：[Understanding LSTM](http://colah.github.io/posts/2015-08-Understanding-LSTMs/))
 
-![RNN](./images/RNN-unrolled.png)
+![RNN](http://colah.github.io/posts/2015-08-Understanding-LSTMs/img/RNN-unrolled.png)
 RNN展开后由多个相同的单元连续连接。即随着不断的循环，上述自我循环的结构把上一次的状态传递给当前输入，一起作为新的输入数据进行当前轮次的训练和学习，一直到输入或者训练结束，最终得到的输出即为最终的预测结果。
 
 LSTM基本结构图：
